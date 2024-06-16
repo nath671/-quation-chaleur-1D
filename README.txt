@@ -1,0 +1,3 @@
+Pour obtenir le résultat final il suffit d'éxecuter le Makefile. Ceci va créer une image .png nommé "resultat1D.png" qui représente la température en chaque point du domaine 1D en fonction du temps. Celui-ci va se créer dans le dossier où sont tous les fichiers.
+
+Le fichier "main.cpp" permet de modifier les constantes intrinsèques aux matériaux que l'on veut utiliser comme K, rho, et C. Ou encore modifier la taille du domaine, le pas dx, les températures aux bords et initiales, le temps final et le pas de temps dt. On peut aussi y modifier la position et l'épaisseur du/des mur(s) ou ne pas en mettre. 
