@@ -36,7 +36,7 @@ double *Piece::Amenagement(double C_air, double K_air, double rho_air, Domaine1D
         {
 
             // est ce que on est dans un des k murs ?
-            if (x >= murs[k].get_xmin() and x <= murs[k].get_xmax())
+            if (x >= murs[k].get_xmin() && x <= murs[k].get_xmax())
             {
                 tab_C[i] = murs[k].get_C();
                 tab_K[i] = murs[k].get_K();
